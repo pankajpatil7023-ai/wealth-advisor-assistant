@@ -1,0 +1,24 @@
+[
+  {
+    "client_id": "client-001",
+    "name": "Jordan Lee",
+    "age": 38,
+    "financial_goals": [
+      "Build a six-month emergency fund",
+      "Save for a home down payment"
+    ],
+    "risk_tolerance": "moderate",
+    "advisor_notes": "Fictional sample profile. Prefers clear explanations and a conservative cash reserve."
+  },
+  {
+    "client_id": "client-002",
+    "name": "Morgan Rivera",
+    "age": 52,
+    "financial_goals": [
+      "Reduce debt",
+      "Prepare for retirement"
+    ],
+    "risk_tolerance": "conservative",
+    "advisor_notes": "Fictional sample profile used to demonstrate a client with no matching ledger."
+  }
+]

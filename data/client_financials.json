@@ -1,0 +1,115 @@
+{
+  "client_id": "client-001",
+  "currency": "USD",
+  "current_balance": 18450.75,
+  "transactions": [
+    {
+      "transaction_id": "tx-jan-paycheck",
+      "posted_at": "2026-01-02",
+      "description": "January salary",
+      "category": "salary",
+      "transaction_type": "income",
+      "amount": 7000.0,
+      "merchant": "Northwind Design"
+    },
+    {
+      "transaction_id": "tx-jan-rent",
+      "posted_at": "2026-01-03",
+      "description": "January rent",
+      "category": "housing",
+      "transaction_type": "expense",
+      "amount": 2200.0,
+      "merchant": "Oak and Pine Properties"
+    },
+    {
+      "transaction_id": "tx-jan-travel",
+      "posted_at": "2026-01-12",
+      "description": "Train tickets",
+      "category": "travel",
+      "transaction_type": "expense",
+      "amount": 250.0,
+      "merchant": "Coastline Rail"
+    },
+    {
+      "transaction_id": "tx-jan-groceries",
+      "posted_at": "2026-01-18",
+      "description": "Grocery shopping",
+      "category": "food",
+      "transaction_type": "expense",
+      "amount": 240.0,
+      "merchant": "Market Street Foods"
+    },
+    {
+      "transaction_id": "tx-feb-paycheck",
+      "posted_at": "2026-02-02",
+      "description": "February salary",
+      "category": "salary",
+      "transaction_type": "income",
+      "amount": 7200.0,
+      "merchant": "Northwind Design"
+    },
+    {
+      "transaction_id": "tx-feb-rent",
+      "posted_at": "2026-02-03",
+      "description": "February rent",
+      "category": "housing",
+      "transaction_type": "expense",
+      "amount": 2200.0,
+      "merchant": "Oak and Pine Properties"
+    },
+    {
+      "transaction_id": "tx-feb-groceries",
+      "posted_at": "2026-02-06",
+      "description": "Grocery shopping",
+      "category": "food",
+      "transaction_type": "expense",
+      "amount": 260.0,
+      "merchant": "Market Street Foods"
+    },
+    {
+      "transaction_id": "tx-feb-travel",
+      "posted_at": "2026-02-09",
+      "description": "Weekend flight",
+      "category": "travel",
+      "transaction_type": "expense",
+      "amount": 950.0,
+      "merchant": "Coastline Air"
+    },
+    {
+      "transaction_id": "tx-feb-dining-1",
+      "posted_at": "2026-02-14",
+      "description": "Dinner",
+      "category": "dining",
+      "transaction_type": "expense",
+      "amount": 189.0,
+      "merchant": "Juniper Kitchen"
+    },
+    {
+      "transaction_id": "tx-feb-dining-2",
+      "posted_at": "2026-02-14",
+      "description": "Dinner",
+      "category": "dining",
+      "transaction_type": "expense",
+      "amount": 189.0,
+      "merchant": "Juniper Kitchen"
+    },
+    {
+      "transaction_id": "tx-feb-electronics",
+      "posted_at": "2026-02-16",
+      "description": "Laptop purchase",
+      "category": "electronics",
+      "transaction_type": "expense",
+      "amount": 2800.0,
+      "merchant": "Pixel Harbor"
+    },
+    {
+      "transaction_id": "tx-feb-utilities",
+      "posted_at": "2026-02-21",
+      "description": "Electric and water",
+      "category": "utilities",
+      "transaction_type": "expense",
+      "amount": 146.2,
+      "merchant": "City Utilities"
+    }
+  ]
+}

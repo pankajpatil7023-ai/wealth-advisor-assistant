@@ -1,0 +1,101 @@
+{
+  "client_id": "client-001",
+  "session_id": "example-session",
+  "generated_at": "2026-02-28T12:00:00Z",
+  "client_profile": {
+    "client_id": "client-001",
+    "name": "Jordan Lee",
+    "age": 38,
+    "financial_goals": [
+      "Build a six-month emergency fund",
+      "Save for a home down payment"
+    ],
+    "risk_tolerance": "moderate",
+    "advisor_notes": "Fictional sample profile. Prefers clear explanations and a conservative cash reserve."
+  },
+  "analysis": {
+    "client_id": "client-001",
+    "currency": "USD",
+    "total_income": 14200.0,
+    "total_expenses": 9424.2,
+    "net_cash_flow": 4775.8,
+    "transaction_count": 12,
+    "monthly_totals": [
+      {
+        "month": "2026-01",
+        "income": 7000.0,
+        "expenses": 2690.0,
+        "net_cash_flow": 4310.0
+      },
+      {
+        "month": "2026-02",
+        "income": 7200.0,
+        "expenses": 6734.2,
+        "net_cash_flow": 465.8
+      }
+    ],
+    "category_totals": [
+      {"category": "housing", "amount": 4400.0},
+      {"category": "electronics", "amount": 2800.0},
+      {"category": "travel", "amount": 1200.0},
+      {"category": "food", "amount": 500.0},
+      {"category": "dining", "amount": 378.0},
+      {"category": "utilities", "amount": 146.2}
+    ],
+    "flagged_insights": [
+      {
+        "insight_id": "example-large-expense",
+        "rule_id": "large_expense",
+        "title": "Large electronics expense",
+        "explanation": "The $2,800 purchase exceeded the explainable review threshold.",
+        "severity": "medium",
+        "transaction_ids": ["tx-feb-electronics"]
+      },
+      {
+        "insight_id": "example-duplicate",
+        "rule_id": "possible_duplicate",
+        "title": "Possible duplicate transaction",
+        "explanation": "Two matching $189.00 dinner transactions were posted on 2026-02-14.",
+        "severity": "medium",
+        "transaction_ids": ["tx-feb-dining-1", "tx-feb-dining-2"]
+      },
+      {
+        "insight_id": "example-category-spike",
+        "rule_id": "category_monthly_spike",
+        "title": "Travel spending increased",
+        "explanation": "Travel spending rose from $250.00 in January to $950.00 in February.",
+        "severity": "medium",
+        "transaction_ids": []
+      }
+    ],
+    "methodology": [
+      "Rule-based analysis; every flag includes an explanation and rule ID."
+    ]
+  },
+  "approved_insights": [],
+  "rejected_insight_count": 3,
+  "review_decisions": [
+    {
+      "insight_id": "example-large-expense",
+      "decision": "rejected",
+      "reviewer": "sample reviewer",
+      "reviewed_at": "2026-02-28T12:00:00Z"
+    },
+    {
+      "insight_id": "example-duplicate",
+      "decision": "rejected",
+      "reviewer": "sample reviewer",
+      "reviewed_at": "2026-02-28T12:00:00Z"
+    },
+    {
+      "insight_id": "example-category-spike",
+      "decision": "rejected",
+      "reviewer": "sample reviewer",
+      "reviewed_at": "2026-02-28T12:00:00Z"
+    }
+  ],
+  "previous_summaries": [],
+  "warnings": [],
+  "errors": [],
+  "disclaimer": "Demonstration only. This report is not financial, tax, or investment advice."
+}
